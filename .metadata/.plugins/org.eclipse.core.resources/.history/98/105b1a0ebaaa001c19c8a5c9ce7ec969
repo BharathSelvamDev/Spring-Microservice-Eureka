@@ -1,0 +1,5 @@
+package io.tech.student.controller;
+
+public class StudentController {
+
+}

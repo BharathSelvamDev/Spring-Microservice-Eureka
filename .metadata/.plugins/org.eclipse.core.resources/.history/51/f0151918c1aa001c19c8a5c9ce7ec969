@@ -1,0 +1,14 @@
+package io.tech.student.service;
+
+import org.springframework.stereotype.Service;
+
+import io.tech.student.model.StudentDepartmentVO;
+
+@Service
+public class StudentService {
+
+	public StudentDepartmentVO GetStudentByIDWithDepartment(int id) {
+		return null;
+	}
+
+}

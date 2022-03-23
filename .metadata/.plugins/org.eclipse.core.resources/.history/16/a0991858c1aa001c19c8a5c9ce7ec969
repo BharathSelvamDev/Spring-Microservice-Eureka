@@ -1,0 +1,24 @@
+package io.tech.student.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import io.tech.student.entity.StudentEntity;
+import io.tech.student.model.StudentDepartmentVO;
+import io.tech.student.repo.StudentRepo;
+
+@Service
+public class StudentService {
+	
+	@Autowired
+	private StudentRepo studentRepo;
+
+	public StudentDepartmentVO GetStudentByIDWithDepartment(int id) {
+		return null;
+	}
+
+	public StudentEntity SaveStudent(StudentEntity student) {
+		return studentRepo.save(student);
+	}
+
+}

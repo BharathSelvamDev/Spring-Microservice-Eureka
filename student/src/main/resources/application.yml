@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    username: bharath
+    url: jdbc:mysql://localhost:3306/db_student?allowPublicKeyRetrieval=true&useSSL=false
+    password: ********
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+
+  application:
+    name: STUDENT-SERVICE
+    
+server:
+  port: 9000
+  
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true

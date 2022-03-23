@@ -1,0 +1,16 @@
+package io.tech.student.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
+
+public class StudentEntity {
+	@Id
+	@Column(nullable = false)
+	private int id;
+	@Column(nullable = false)
+	private String name;
+	@Column(nullable = false)
+	private String departmentID;
+	@Column(nullable = false)
+	private String city;
+}

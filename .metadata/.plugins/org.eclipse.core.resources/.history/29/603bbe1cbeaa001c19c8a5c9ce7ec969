@@ -1,0 +1,6 @@
+package io.tech.department.entity;
+
+@Entity
+public class DepartmentEntity {
+
+}

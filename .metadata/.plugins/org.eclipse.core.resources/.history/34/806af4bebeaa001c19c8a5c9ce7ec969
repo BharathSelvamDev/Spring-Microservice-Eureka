@@ -1,0 +1,14 @@
+package io.tech.department.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import io.tech.department.repo.DepartmentRepo;
+
+@Service
+public class DepartmentService {
+	
+	@Autowired
+	private DepartmentRepo departmentRepo;
+
+}
